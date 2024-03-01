@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile_Suite" thread-count="5">
+	
+	<listeners>
+		<listener class-name="Common_Utilities.Extent_ReportManger"></listener>
+	</listeners>
+	
+ 	 <test name="Android native app test on Android 10">
+		    <parameter name="platform" value="Android" />
+			<parameter name="udidType" value="RZCRA04PNSX" />
+			<parameter name="systemPort" value="4723" />
+			<parameter name="deviceName" value="Samsung Galaxy A52" />
+		
+				<classes>
+				  <class name="TestRunner_File.Mobile_Runner"/>
+			  </classes>
+ 	</test> <!-- SmokeTest -->
+ 	
+</suite> <!-- Mobile_Suite -->

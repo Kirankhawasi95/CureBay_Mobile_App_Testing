@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T13:21:58 IST" name="Mobile_Suite" finished-at="2024-02-29T13:22:59 IST" duration-ms="60786">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner_File.Mobile_Runner@7857fe2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-02-29T13:21:58 IST" name="Android native app test on Android 10" finished-at="2024-02-29T13:22:59 IST" duration-ms="60786">
+      <class name="TestRunner_File.Mobile_Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner_File.Mobile_Runner@7857fe2]" started-at="2024-02-29T13:21:58 IST" name="setUpClass" finished-at="2024-02-29T13:21:59 IST" duration-ms="621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@63326a3a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="DefineDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestRunner_File.Mobile_Runner@7857fe2]" started-at="2024-02-29T13:21:59 IST" name="DefineDriver" finished-at="2024-02-29T13:21:59 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RZCRA04PNSX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Samsung Galaxy A52]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefineDriver -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner_File.Mobile_Runner@7857fe2]" started-at="2024-02-29T13:21:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:22:40 IST" duration-ms="40529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check all settings option for CureBay App"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check all the Mainu options for CureBay App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner_File.Mobile_Runner@7857fe2]" started-at="2024-02-29T13:22:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:22:59 IST" duration-ms="19328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login the Curebay Mobile Application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login functionality of Curebay Mobile App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner_File.Mobile_Runner@7857fe2]" started-at="2024-02-29T13:22:59 IST" name="tearDownClass" finished-at="2024-02-29T13:22:59 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner_File.Mobile_Runner -->
+    </test> <!-- Android native app test on Android 10 -->
+  </suite> <!-- Mobile_Suite -->
+</testng-results>
